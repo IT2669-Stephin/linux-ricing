@@ -1,0 +1,52 @@
+{	
+  "logo": {
+  "type": "small",
+  "padding": {
+    "top": 1,
+    "left": 4,
+    "bottom": 4
+  }
+  },
+  "display": {
+    "separator": " ",
+  },
+  "modules": [
+    "break",
+    {
+      "type": "os",
+      "key": " ",
+      "format": "Arch (Btw)",
+    },
+    {
+      "type": "shell",
+      "format": "Stephin Dev",
+      "key": ">_",
+    },
+    {
+      "type": "terminal",
+      "key": " ",
+      "format": "Ghostty Terminal",
+    },
+    {
+      "type": "wm",
+      "format": "Niri (Wayland)",
+      "key": " ",
+    },
+    {
+      "type": "cpu",
+      "key": "󰍛 ",
+      "format": "AMD Ryzen 5 3550H",
+    },
+    {
+      "type": "memory",
+      "key": "🎟 ",
+      "format": "{},{}",
+    },
+
+    {
+      "type": "uptime",
+      "key": " ",
+    },
+    "break",
+  ],
+}

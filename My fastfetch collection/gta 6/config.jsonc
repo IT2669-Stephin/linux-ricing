@@ -1,0 +1,59 @@
+{
+  "logo": {
+    "type": "kitty-direct",
+    "source": "~/.config/fastfetch/v.png",
+    "position": "top",
+    "width": 42,
+    "height": 12,
+    "padding": {
+      "top": 3,
+      "left": 7,
+    },
+  },
+  "display": {
+    "separator": "",
+  "key": { "paddingLeft": 8 }
+  },
+  "modules": [
+    {
+      "key": "╭────────────────────────────────────╮",
+      "type": "custom",
+    },
+    { "key": "│  user    │", "type": "title", "format": "stephin                 │" },
+    {
+      "key": "│ 󰅐 uptime  │",
+      "type": "uptime",
+      "format": "{1} days {2} hours          │",
+    },
+    {
+      "key": "│  distro  │",
+      "type": "os",
+      "format": "arch linux x86-64       │",
+    },
+    { "key": "│  kernel  │", "type": "kernel", "format": "{2<20}    │" },
+    { "key": "│  wm      │", "type": "wm", "format": "niri wayland            │" },
+    {
+      "key": "│  term    │",
+      "type": "terminal",
+      "format": "ghostty terminal        │",
+    },
+    { "key": "│  shell   │", "type": "shell", "format": "fish shell              │" },
+    { "key": "│ 󰍛 cpu     │", "type": "cpu", "format": "{1<20}    │", },
+    {
+      "key": "│ 󰉉 disk    │",
+      "type": "disk",
+      "format": "{1} / {2}  │",
+    },
+    {
+      "key": "│  memory  │",
+      "type": "memory",
+      "format": "{1} / {2}    │",
+    },
+    {
+      "key": "╰────────────────────────────────────╯",
+      "type": "custom",
+    },
+    "break",
+    "break",
+  ],
+}

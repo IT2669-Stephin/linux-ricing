@@ -1,0 +1,58 @@
+{
+  "logo": {
+    "type": "kitty-direct",
+    "source": "~/.config/fastfetch/4.png",
+    "position": "right" ,
+    "width": 23,
+    "padding": {
+      "right": 96,
+      "bottom": 4,
+      "top": 3,
+    },
+  },
+  "display": {
+    "key": { "paddingLeft": 1 },
+    "separator": " ",
+  },
+  "modules": [
+    "break",
+    { "key": " ╭─────────────────────────────────────────────╮",
+      "type": "custom", 
+    },
+    "break", 
+    { "key": "         user            ", "type": "title", "format": "stephin dev" },
+    {
+      "key": "     uptime                ",
+      "type": "uptime",
+      "format": "{1} days {2} hours",
+    },
+    {
+      "key": "   distro                    ",
+      "type": "os",
+    },
+    { "key": "  kernel                      ", "type": "kernel", "format": "{2<20}" },
+    { "key": "      wm                      ", "type": "wm", "format": "niri wayland" },
+    {
+      "key": "    term                      ",
+      "type": "terminal",
+      "format": "ghostty terminal",
+    },
+    { "key": "   shell                      ", "type": "shell", "format": "fish shell" },
+    { "key": "      cpu                    ", "type": "cpu", "format": "{1<20}", },
+    {
+      "key": "       disk                ",
+      "type": "disk",
+      "format": "{1} {2}",
+    },
+    {
+      "key": "       memory            ",
+      "type": "memory",
+      "format": "{1} {2}",
+    },
+    "break",
+    { "key": " ╰─────────────────────────────────────────────╯",
+      "type": "custom",
+    },  
+    "break",
+  ],
+}
