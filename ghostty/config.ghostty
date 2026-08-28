@@ -2,3 +2,4 @@ window-decoration=false
 font-size = 10
 background-opacity = 0.4
 custom-shader = shaders/perfection.glsl
+custom-shader-animation = always
